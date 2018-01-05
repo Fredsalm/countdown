@@ -12,10 +12,10 @@
 			if(compte===0){
 				clearInterval(intervale);
 
-			$('.below').removeClass('showing').addClass('above');
+			$('.rebour.below').removeClass('showing').addClass('above');
 
 			setTimeout(function(){
-				$('.below').removeClass('.below').addClass('.showing');
+				$('.rebour.below').removeClass('.below').addClass('.showing');
 			},400)
 				
 			setTimeout(function(){
